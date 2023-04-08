@@ -1,0 +1,11 @@
+import pygame as pg
+
+DOOM_RES = DOOM_W, DOOM_H = 320, 200
+
+SCALE = 5.0
+WIN_RES = WIDTH, HEIGHT = int(DOOM_W * SCALE), int(DOOM_H * SCALE)
+H_WIDTH, H_HEIGHT = WIDTH // 2, HEIGHT // 2
+SCREENRECT = pg.Rect(0, 0, HEIGHT, WIDTH)
+
+FOV = 90
+H_FOV = 45
